@@ -62,6 +62,7 @@ annotate SalesOrdersService.Headers with @(
 );
 
 annotate SalesOrdersService.Headers with {
+    ID       @Common.FieldControl: #ReadOnly; // numeración tardía en el servidor
     CreateOn    @Common.FieldControl: #ReadOnly; // la asigna el servidor
     OrderStatus @(
         Common.ValueListWithFixedValues: true,
