@@ -1,0 +1,4 @@
+ID;Email;FirstName;LastName;Country;CreateOn;DeliveryDate;OrderStatus;ImageURL
+1f9e2a30-0001-4a1b-8c2d-000000000001;john.doe@logali.com;John;Doe;USA;2024-01-05;2024-01-20T10:00:00Z;2;https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg
+1f9e2a30-0002-4a1b-8c2d-000000000002;maria.garcia@logali.com;María;García;Spain;2024-02-10;2024-02-25T12:00:00Z;1;
+1f9e2a30-0003-4a1b-8c2d-000000000003;peter.miller@logali.com;Peter;Miller;Germany;2024-03-01;2024-03-15T09:30:00Z;4;

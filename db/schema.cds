@@ -10,7 +10,7 @@ using {
  */
 entity Headers : managed {
     key ID           : String(36)                    @title: '{i18n>ID}';
-    key Email        : String(30)                    @title: '{i18n>Email}'  @mandatory;
+        Email        : String(30)                    @title: '{i18n>Email}'  @mandatory;
         FirstName    : String(30)                    @title: '{i18n>FirstName}';
         LastName     : String(30)                    @title: '{i18n>LastName}';
         Country      : String(30)                    @title: '{i18n>Country}';

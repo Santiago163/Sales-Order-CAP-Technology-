@@ -1,0 +1,4 @@
+ItemUUID;Header_ID;Name;Description;ReleaseDate;DiscontinuedDate;Price;Currency_code;Height;Width;Depth;Quantity;UnitOfMeasure
+7c1a9b20-1001-4e5f-9a8b-000000000001;1f9e2a30-0001-4a1b-8c2d-000000000001;Laptop Pro 15;Business laptop;2024-01-02;;1299.99;EUR;2.500;35.000;24.00;5.00;PC
+7c1a9b20-1002-4e5f-9a8b-000000000002;1f9e2a30-0001-4a1b-8c2d-000000000001;Wireless Mouse;Ergonomic mouse;2023-11-15;;29.90;EUR;4.000;6.500;11.00;10.00;PC
+7c1a9b20-1003-4e5f-9a8b-000000000003;1f9e2a30-0002-4a1b-8c2d-000000000002;Monitor 27;4K UHD monitor;2024-02-01;;349.00;EUR;36.000;62.000;5.50;2.00;PC

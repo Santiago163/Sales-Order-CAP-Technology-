@@ -1,7 +1,7 @@
 {
   "name": "Sales-Order",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Sales Orders - Proyecto Final Master SAP BTP (CAP)",
   "dependencies": {
     "@cap-js/hana": "^3",
     "@sap/cds": "^10"
