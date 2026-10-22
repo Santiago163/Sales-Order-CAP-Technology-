@@ -17,6 +17,9 @@ entity Headers : managed {
         CreateOn     : Date                          @title: '{i18n>CreateOn}';
         DeliveryDate : DateTime                      @title: '{i18n>DeliveryDate}';
         OrderStatus  : Integer                       @title: '{i18n>OrderStatus}';
+            // Asociación ad-hoc para textos y criticality (no se persiste)
+        Status       : Association to OrderStatuses
+                           on Status.code = OrderStatus;
         ImageURL     : String                        @title: '{i18n>ImageURL}';
         Items        : Composition of many Items
                            on Items.Header = $self;

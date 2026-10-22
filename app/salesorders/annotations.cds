@@ -24,7 +24,10 @@ annotate SalesOrdersService.Headers with @(
         {Value: Country},
         {Value: CreateOn},
         {Value: DeliveryDate},
-        {Value: OrderStatus}
+        {
+            Value: OrderStatus,
+            Criticality: Status.criticality   // 1=rojo, 2=naranja, 3=verde
+            }
     ],
     UI.Facets            : [
         {
@@ -65,6 +68,9 @@ annotate SalesOrdersService.Headers with {
     ID       @Common.FieldControl: #ReadOnly; // numeración tardía en el servidor
     CreateOn    @Common.FieldControl: #ReadOnly; // la asigna el servidor
     OrderStatus @(
+            // --- NUEVO: mostrar la descripción en lugar del código ---
+        Common.Text            : Status.text,
+        Common.TextArrangement : #TextOnly,
         Common.ValueListWithFixedValues: true,
         Common.ValueList               : {
             Label         : '{i18n>OrderStatus}',
